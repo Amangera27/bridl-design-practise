@@ -1,0 +1,29 @@
+.main {
+  background-color: #FCFAF8; /* Luxury pristine cream */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-family: var(--font-playfair), serif;
+  font-size: 80px;
+  font-weight: 400;
+  color: #1A1A1A;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-family: var(--font-outfit), sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(26, 26, 26, 0.6);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
